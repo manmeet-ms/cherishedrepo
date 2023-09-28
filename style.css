@@ -16,32 +16,27 @@
 }
 
 :root {
-    --bg-dark: #040c15;
-    --primary-blue: #3b82f6;
-    --para-gray: #cbd5e1;
+    --bg-dark: #020617;
+    --heading: #14b8a6;
+    /* --heading: #84cc16; */
+    --para: #e2e8f0;
 }
 *{
-    font-family: 't';
+    font-family: 'msb';
     text-align: center;
     letter-spacing: 0.5px;
     line-height: 155%;
 }
 body{
-    background-color: #111827;
-    color: var(--para-gray);
+    background-color: var(--bg-dark);
+    color: var(--para);
 }
 
 h1, h2{
-    color: var(--primary-blue);
+    color: var(--heading);
 }
-.text-blue{
-    color: var(--primary-blue); 
-    font-size: 25px;
-    
-}
-.title{
-    font-size: 35px;
-}
+
+
 .img-ਮੰਗਲ{
     width: 95vw;
     height: 50vh;
@@ -53,8 +48,8 @@ a{
     border-radius: 10px;
     font-family: 't';
     background: transparent;
-    border: solid 2px var(--primary-blue);
-    color: var(--primary-blue);
+    border: solid 2px var(--heading);
+    color: var(--heading);
 }
 .flex{
     display: flex;
