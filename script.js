@@ -1,10 +1,6 @@
-let show=()=>{
-    alert("Hello World");
+let i=1;
+let counter = () => {
+  let elem = document.querySelector("#counterdisplay");
+  elem.innerHTML=i;
+  i+=1;
 }
-let close=()=>{
-    alert("Bye World");
-}
-let a = document.querySelector('#ham')
-a.addEventListener('click', show)
-let b = document.querySelector('#close')
-b.addEventListener('click', close)
